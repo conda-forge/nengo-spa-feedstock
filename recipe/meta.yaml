@@ -20,9 +20,10 @@ requirements:
     - numpy
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - nengo >=2.7
-    - numpy
+    - numpy <2
     - python >={{ python_min }}
 
 test:
